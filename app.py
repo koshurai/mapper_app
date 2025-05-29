@@ -40,6 +40,8 @@ def estimate_fuel(distance_km, avg_kmpl):
 
 # Streamlit UI
 st.title("Distance, Time & Fuel Estimator 🚗")
+st.markdown("**App Developed by Koshur AI**")
+st.image('blob.png',width=200)
 
 loc1 = st.text_input("Enter Location 1:")
 loc2 = st.text_input("Enter Location 2:")

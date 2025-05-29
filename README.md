@@ -32,3 +32,28 @@ A Streamlit web application to estimate the **driving distance**, **travel time*
 
 User Input ──▶ Geocoder (Mapbox) ──▶ Route Engine (OSRM) ──▶ Fuel Estimation ──▶ Display Results
 
+
+## 📈 API Rate Limits
+
+### 🔹 Mapbox Geocoding API (Free Tier)
+
+| Metric                | Limit                        |
+|-----------------------|------------------------------|
+| Monthly Active Users  | 50,000 requests/month        |
+| Rate Limit            | 600 requests/minute          |
+| Burst Limit           | 300 requests/second          |
+| Pricing               | [View Mapbox Pricing](https://www.mapbox.com/pricing/) |
+
+
+
+---
+
+### 🔹 OSRM (Public Routing Server)
+
+| Metric         | Limit                                  |
+|----------------|-----------------------------------------|
+| Request Type   | Public (Demo Server)                    |
+| Rate Limit     | No formal SLA or limit guarantees       |
+| Notes          | Not intended for production use         |
+
+
